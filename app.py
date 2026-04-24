@@ -1,4 +1,4 @@
-port streamlit as st
+import streamlit as st
 from expense import Expense
 from utils import add_expense, view_expenses
 from analytics import analyze_expenses_df
